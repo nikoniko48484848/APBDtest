@@ -5,5 +5,6 @@
         Console.WriteLine("Hello, World!");
         Console.WriteLine("Hello, Earth!");
         Console.WriteLine("Hello, Mars!");
+        Console.WriteLine("Hello, Sun!");
     }
 }
