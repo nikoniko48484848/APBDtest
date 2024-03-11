@@ -21,5 +21,17 @@ public class Project
         res = sum / arr.Length;
         return res;
     }
+
+    public static int max(int[] arr)
+    {
+        int max = 0;
+        foreach (var i in arr)
+        {
+            if (i > max)
+                max = i;
+        }
+
+        return max;
+    }
 }
 
