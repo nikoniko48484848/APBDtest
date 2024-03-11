@@ -12,14 +12,14 @@ public class Project
 
     public static int avg(int[] arr)
     {
-        int res = 0;
+        int result = 0;
         int sum = 0;
         foreach (var i in arr)
         {
             sum += i;
         }
-        res = sum / arr.Length;
-        return res;
+        result = sum / arr.Length;
+        return result;
     }
 
     public static int max(int[] arr)
