@@ -10,7 +10,7 @@ public class Project
         Console.WriteLine("Hello, Sun!");
     }
 
-    public static int avg(int[] arr)
+    public static int Average(int[] arr)
     {
         int res = 0;
         int sum = 0;
